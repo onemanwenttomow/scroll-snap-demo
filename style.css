@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+    margin: 0;
+}
+body {
+	font-family: sans-serif;
+}
+.container {
+	max-height: 100vh;
+	overflow-y: scroll;
+	scroll-snap-type: mandatory;
+	scroll-snap-points-y: repeat(100vh);
+	scroll-snap-type: y mandatory;
+}
+ul {
+    padding: 0;
+}
+section {
+	min-height: 100vh;
+	scroll-snap-align: start;
+}
+
+section:nth-child(odd) {
+	background-color: hotpink;
+}
