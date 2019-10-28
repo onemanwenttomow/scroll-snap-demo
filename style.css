@@ -23,3 +23,7 @@ section {
 section:nth-child(odd) {
 	background-color: hotpink;
 }
+
+section:nth-child(even) {
+	background-color: MidnightBlue;
+}
