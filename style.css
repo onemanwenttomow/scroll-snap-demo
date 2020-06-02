@@ -20,10 +20,11 @@ section {
 	scroll-snap-align: start;
 }
 
-section:nth-child(odd) {
+/* section:nth-child(odd) */
+ .pink {
 	background-color: hotpink;
 }
-
-section:nth-child(even) {
+/* section:nth-child(even),  */
+.blue {
 	background-color: MidnightBlue;
 }
